@@ -10,7 +10,16 @@
           // $('#token').html('json');
           // window.alert('hello');
           $.getJSON('/ranUchiban',(json) => {
-            $('#token').html(json);
+            let tbr = `<table>
+            <tr><td>畑</td><td>${json[0]}</td><td>${json[1]}</td></tr>
+            <tr><td>馬</td><td>${json[2]}</td><td>${json[3]}</td></tr>
+            <tr><td>手合わせ</td><td>${json[4]}</td><td>${json[5]}</td></tr>
+            </table>`;
+            // let tbr = `<table>
+            // <tr><td>ランダム</td></tr>
+            // <tr><td>ランダム</td></tr>
+            // </table>`
+            $('#token').html(tbr);
             // window.alert('ok');
           
           })
