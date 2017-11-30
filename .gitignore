@@ -1,5 +1,5 @@
-/node_modules/
 mydb.sqlite3
 test.js
 test.ejs
+/node_modules/
 package-lock.json
