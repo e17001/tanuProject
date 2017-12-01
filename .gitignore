@@ -1,5 +1,7 @@
 mydb.sqlite3
-test.js
+mydb.sqlite3-journal
+public/test/
+routes/test/
 test.ejs
 /node_modules/
 package-lock.json
